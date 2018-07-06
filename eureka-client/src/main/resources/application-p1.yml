@@ -5,3 +5,5 @@ eureka:
 spring:
   application:
     name: eureka-client
+server:
+  port: 8763
