@@ -1,8 +1,12 @@
+feign:
+  hystrix:
+    enabled: true
+
 spring:
   application:
-    name: eureka-feign-client
+    name: hystrix-feign-client
 server:
-  port: 8769
+  port: 8770
 eureka:
   client:
     service-url:
